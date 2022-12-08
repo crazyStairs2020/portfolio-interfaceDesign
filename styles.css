@@ -18,11 +18,30 @@
 }
 
 #page-body h2 {
-  font-size: 3.5em;
+  font-size: 2.5em;
   margin: auto;
   line-height: 100px;
   vertical-align: middle;
   text-align: left;
+}
+
+#page-body h3 {
+  font-size: 1.5em;
+  margin: auto;
+  line-height: 100px;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.projects {
+  /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 p {
