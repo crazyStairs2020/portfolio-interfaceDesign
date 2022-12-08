@@ -1,0 +1,31 @@
+#page-body {
+  background-color: whitesmoke;
+}
+
+.headers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  text-align: left;
+}
+
+#page-body h1 {
+  font-size: 5em;
+  margin: auto;
+  line-height: 100px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#page-body h2 {
+  font-size: 3.5em;
+  margin: auto;
+  line-height: 100px;
+  vertical-align: middle;
+  text-align: left;
+}
+
+p {
+  font-family: Consolas, monospace;
+  margin: 75px;
+}
